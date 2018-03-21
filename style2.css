@@ -1,0 +1,267 @@
+/*feuille css*/
+
+body{
+	background-color: Azure;
+	margin: 0px;
+	padding: 0px;
+}
+
+.intro {
+  background-image: url("images/eau.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 350px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.intro h1{  
+  font-size: 32px;
+  font-family: Georgia,serif;
+  color : White;
+  font-weight: bold;
+  margin-top: 0px;
+  display: inline-block;
+}
+
+.flag{
+	float : right;
+	display : inline-block;
+	margin : 20px 20px;
+}
+
+.flag img {
+	width: 20px;
+	height: 15px;
+	background-size: cover;
+    background-position: center center;
+}
+
+
+/*Boutons*/
+
+nav{
+	border-radius: 10px;
+	display: inline-block;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 2px;
+}
+
+nav a {	
+	display: inline-block;
+	padding : 1em;
+	border-radius: 5px;
+	width: 50px;
+	text-align: center;
+	color: white;
+	background-image:-webkit-linear-gradient(DodgerBlue,MidnightBlue);
+	background-size: cover;
+}
+
+li{
+	margin: 5px;
+}
+
+.selected, nav a:hover{
+	background:url(images/bouton-noir2.png) no repeat;
+	border: 2px solid black;
+}
+
+
+/*Contenu Page*/
+
+.page{
+	display: inline-block;
+	float: right;
+	width: 87%;
+	font-family: Ubuntu, sans-serif;
+}
+
+h2{
+  font-size: 3em;
+  font-family: Arial,serif;
+  color : DarkCyan;
+  text-align: center; 
+  margin-top: 1.5em;   /*Pour centrer par rapport au menu*/
+  letter-spacing: 0.2em;
+  word-spacing:0.5em;
+}
+
+h3{
+	text-align: center;
+	font-size: 2em;
+	font-family: Arial,serif;
+	
+	margin: auto;
+	width: 50%;
+}
+
+h4{
+	text-align: center;
+	font-size: 1.5em;
+	margin: auto;
+	width: 50%;
+	color: DarkBlue;
+}
+
+h5{
+	font-style: italic;
+}
+
+p{
+	font-family: Ubuntu, sans-serif;
+}
+
+.competences ul{
+	list-style-type: none;
+	font-family: Lora,serif;
+}
+
+/* Accueil */
+
+#image-bienvenue img{
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 20%;
+  display: block;
+}
+
+
+
+/*  CV */
+
+#photocv{
+	margin-top: 10px;   			/* Décalage par rapport au titre*/
+	margin-bottom : 20px;			/* Décalage par rapport au texte d'intro*/
+}
+
+#cotéimg {
+	display: inline-block;
+	vertical-align : 150px;			/*Pour mettre à coté de l'image */
+	font-size : 1.2em;
+}
+
+#cotéimg h5{
+	display : inline-block;			/*Pour que le texte se mette à coté du titre correspondant */
+	padding : 5px;					/* Décalage par rapport au texte*/
+	margin : 5px 0px;
+}
+
+#logoLinkedIn {
+		width : 30px;
+		position: relative;
+		border-radius: 5px;
+}
+
+/* Projets */
+
+.imgprojets{
+	width: 60px;
+	height: 60px;
+}
+
+/*Hobbies*/
+
+
+.football{
+	background: url("images/football-1.jpg") no-repeat right center;
+	width: 100%;
+	height: 100px;
+	background-size: cover;
+	
+	font-size: 22px;
+	text-align: center;
+	padding-top: 200px;
+	color: white;
+}
+
+.theatre{
+	margin-top: 10px;
+	background: url("images/theatre.jpg") no-repeat;
+	width: 100%;
+	height: 100px;
+	background-size: cover;
+	
+	padding-top: 30px;
+	padding-bottom:170px;
+	color: white;
+	font-size: 25px;
+}
+
+.theatre p{
+	width:50%;
+	margin: 20px auto;
+	text-align:center;
+}
+
+.sciences{
+	margin-top: 10px;
+	background: url("images/sciences.jpg") no-repeat;
+	width: 100%;
+	height: 100px;
+	background-size: cover;
+	
+	color: blue;
+	padding-top: 30px;
+	padding-bottom:170px;
+	font-size: 22px;
+	text-align: right;
+}
+
+
+
+/* Divers */
+
+table {
+  left: 10%;
+  margin: 20px auto;
+  width: 80%;
+}
+
+tr {
+  background: BurlyWood;
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+}
+
+th, td {
+  font-family: Lora, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 20px; 
+  text-align: center;
+  width: 35%; 
+}
+
+
+
+
+
+.jeux img{
+	height: 200px;
+	width : 200px;
+	padding-bottom: 20px;
+}
+
+.jeux p{
+	vertical-align: 120px;
+	margin-left: 2em;
+	display:inline-block;
+	font-size: 2em;
+	color: SteelBlue;
+}
+
+
+
+
+.footer	{			
+	border-top:	1px	solid blue;	
+	text-align:	right;
+	margin: 20px;
+	padding: 0px;
+	clear: both;
+}
